@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    
     <title>Soft Shop LLC</title>
 </head>
 
@@ -49,8 +50,8 @@
         </div> -->
         <div class="row">
             <div class="col-md-6">
-                <form class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=4c32921dfa323f196eb3ee497a982281" method="post">
-                    <input type="hidden" name="redirect_to" value="https://soft-shop.github.io/softshop-site/thankyou.html">
+                <form class="form-horizontal" action="https://formspree.io/yuri.weinstein@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://soft-shop.github.io/softshop-site/thankyou.html">
                     <fieldset>
                         <legend class="text-left">Contact us</legend>
                         <!-- Name input-->
@@ -65,7 +66,7 @@
                         <div class="form-group">
                             <label class="col-md-3 control-label" for="email">Your E-mail</label>
                             <div class="col-md-9">
-                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                <input id="email" name="_replyto" type="text" placeholder="Your email" class="form-control">
                             </div>
                         </div>
 
@@ -80,7 +81,7 @@
                         <!-- Form actions -->
                         <div class="form-group">
                             <div class="col-md-12 text-right">
-                                <button type="submit" class="btn btn-primary btn-md">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-md" value="Send">Submit</button>
                             </div>
                         </div>
                     </fieldset>
